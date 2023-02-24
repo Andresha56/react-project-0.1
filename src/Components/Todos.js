@@ -45,7 +45,10 @@ const Todos = () => {
     setToggleBtn(false);
     setNewEdit(index);
   };
+  const clearTodo=()=>{
+    setDatas([])
 
+  }
   return (
     <>
       <div className="TodosContainer">
@@ -89,6 +92,9 @@ const Todos = () => {
                 </p>
               );
             })}
+            <div className="clearBtn">
+              <button onClick={clearTodo}>Clear All</button>
+            </div>
           </div>
         </div>
       </div>

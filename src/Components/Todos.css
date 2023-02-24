@@ -51,3 +51,13 @@ p .delIcon:hover{
     color: red;
     cursor: pointer;
 }
+
+.clearBtn{
+  text-align: center;
+  margin-top: 40px;
+}
+.clearBtn button{
+    padding:0.4rem 1rem ;
+    font-weight: bold;
+    color: rgb(6, 52, 67);
+}
